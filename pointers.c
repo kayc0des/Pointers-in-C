@@ -16,7 +16,7 @@ int main(void)
 
     printf("The address of variable a is %p\n", p); //This statement prints the address of a in memory
     printf("The value of variable a pointed to by p is %d\n", *p); //derefrencing - this statement print the value of ale
-
+    printf("The size of interger a is %lu bytes\n", sizeof(int));
     /**
      * Change the value of a using the pointer
     */
