@@ -8,14 +8,14 @@
 
 int main(void)
 {
-    int a;
-    int *p;
+    int a; //variable declaration - variable a of type int
+    int *p; //pointer to interger declaration
 
-    a = 5;
-    p = &a;
+    a = 5; //a initialzed with value 5
+    p = &a; // p ponts to the address of a = &a
 
-    printf("The address of variable a is %d\n", p);
-    printf("The value of variable a pointed to by p is %d\n, *p");
+    printf("The address of variable a is %p\n", p); //This statement prints the address of a in memory
+    printf("The value of variable a pointed to by p is %d\n", *p); //derefrencing - this statement print the value of a
 
     return(0);
 }
