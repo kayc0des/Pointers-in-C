@@ -15,7 +15,14 @@ int main(void)
     p = &a; // p ponts to the address of a = &a
 
     printf("The address of variable a is %p\n", p); //This statement prints the address of a in memory
-    printf("The value of variable a pointed to by p is %d\n", *p); //derefrencing - this statement print the value of a
+    printf("The value of variable a pointed to by p is %d\n", *p); //derefrencing - this statement print the value of ale
+
+    /**
+     * Change the value of a using the pointer
+    */
+
+   *p = 50;
+   printf("The new value of a is %d\n", *p);
 
     return(0);
 }
